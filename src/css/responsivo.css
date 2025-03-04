@@ -1,0 +1,57 @@
+@media(max-width: 1200px){
+    body {
+        padding-right: 0;
+    }
+    body::before {
+        background: url(..//images/bg-mobile.svg) top center no-repeat;
+        background-size: cover;
+        width: 100%;
+        padding-left: 0px;
+        height: 768px;
+    }
+    .logo{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .image{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        max-width: 90%;
+    }
+    
+    .infor{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .infor h2{
+        font-size: 40px;
+        padding: 10px;
+    }
+    
+    .infor p{
+        margin: 10px;
+        padding: 10px;
+        font-size: 25px;
+    }
+    
+    .infor button{
+        display: flex;
+        width: 200px;
+        color: hsl(257, 40%, 49%);
+        background: #fff;
+        font-size: 20px;
+        justify-content: center;
+     }
+
+     .social{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 30px;
+     }
+    }

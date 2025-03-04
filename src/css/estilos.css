@@ -1,0 +1,92 @@
+body {
+    background-color: hsl(257, 40%, 49%);
+    font-family: Open Sans;
+}
+
+body::before {
+    content: '';
+    background: url(../images/bg-desktop.svg) center center no-repeat;
+    background-size: cover;
+    position: absolute;
+    width: 80%;
+    height: 100vh;
+    top: 0;
+    z-index: -1;
+}
+
+.logo{
+    padding: 20px 60px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.image{
+    display: flex;
+    justify-content:space-between;
+    padding: 60px;
+}
+
+ .infor{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.infor h2{
+    color: #fff;
+    font-size: 50px;
+    padding: 5px;
+}
+
+.infor p{
+    display: flex;
+    color: #fff;
+    font-size: 20px;
+    margin: 25px;
+}
+
+.infor button{
+    padding: 15px;
+    margin: 5px;
+    border-radius: 50px;
+    width: 200px;
+    color: hsl(257, 40%, 49%);
+    background: #fff;
+    font-size: 20px;
+}
+
+.infor button:hover{
+    background-color: hsl(300, 69%, 71%);
+    color: #fff;
+    transition: 0.3s;
+    border: none;
+}
+
+.social{
+    display: flex;
+    gap: 15px;
+    width: 98%;
+    font-size: 18px;
+    justify-content: flex-end;
+}
+
+.social .fab{
+    border: 1px solid;
+    height: 30px;
+    width: 30px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 100%;
+}
+
+.social i{
+    color: #fff;
+}
+
+.social i:hover{
+    color: hsl(300, 69%, 71%);
+    transition: 0.3s;
+}
